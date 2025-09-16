@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    color: black;
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    font-size: 14px;
+}
+div:hover{
+    background-color: grey;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    font-weight: normal;
+}
+a:hover{
+    text-decoration: underline;
+}
+.especial::before{
+    content: '-> ';
+    text-decoration: none;
+    font-weight: normal;
+    color: dimgrey;
+}
+.especial::after{
+    content: ' <-';
+    text-decoration: none;
+    font-weight: normal;
+    color: dimgrey;
+}

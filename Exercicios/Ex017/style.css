@@ -1,0 +1,21 @@
+@charset "UTF-8";
+    /*
+    Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas:
+    em, ex, rem, vw, vh, %
+    16px = 1em
+    */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /* light, normal, bold, bolder */
+}
+h1, h2{
+    /* Shorthand
+     -font-style -> font-weight -> font-size -> font-family
+     */
+    font: normal bold 2.5em 'Times New Roman', times, serif;
+    text-decoration: underline;
+}

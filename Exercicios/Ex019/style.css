@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1#main{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    text-align: center;
+}
+h1{
+    color: darkslategrey;
+}
+h2{
+    color: dimgrey;
+}
+.basico{
+    text-decoration: underline green;
+}
+.intermediario{
+    text-decoration: underline yellow;
+}
+.avancado{
+    text-decoration: underline red;
+}
+.destaque{
+    text-align: justify;
+    background-color: dimgrey;
+    color: whitesmoke;
+    border-radius: 6px;
+}

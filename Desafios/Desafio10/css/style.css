@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --cor1: #012912;
+    --cor2: #004300;
+    --cor3: #005300;
+    --cor4: #008000;
+    --cor5: #90EE90AF;
+
+    --fonte-android: idroid, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: var(--fonte-padrao);
+}
+img{
+    width: 100%;
+}
+header{
+    background-image: linear-gradient(to top, var(--cor1), var(--cor3), var(--cor4));
+    padding-top: 12px;
+    font-family: var(--fonte-padrao);
+}
+header > h1{
+    color: white;
+    text-align: center;
+    margin: 1px;
+    font-family: var(--fonte-destaque);
+    font-size: 35px;
+}
+header > p{
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+}
+header > nav{
+    padding: 7px;
+}
+header > nav > a{
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: left;
+    transition-duration: 1s;
+}
+header > nav > a:hover{
+    background-color: var(--cor3);
+}
+main{
+    padding: 10px;
+    margin: auto;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.55);
+    min-width: 300px;
+    max-width: 1000px;
+}
+main > h2{
+    font-family: var(--fonte-android);
+    color: var(--cor2);
+    font-weight: normal;
+}
+main > p{
+    text-indent: 20px;
+}
+main > section > article > h3{
+    color: var(--cor2);
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.44), rgba(0, 128, 0, 0.04), transparent);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+}
+main > section > article > p{
+    text-indent: 20px;
+}
+main img#imgpequena{
+    max-width: 350px;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #004700;
+    background-color: rgba(0, 128, 0, 0.44);
+}
+.link:hover{
+    text-decoration: underline;
+}
+main > section > article > picture{
+    display: block;
+    text-align: center;
+}
+main > section > article > img{
+    display: block;
+    margin: auto;
+}
+.negrito{
+    color: #004700;
+    font-weight: bold;
+}
+.video-container{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: var(--cor2);
+    border: 10px solid var(--cor2);
+    box-sizing: border-box;
+}
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section #SaberMais{
+    width: 97%;
+    margin: auto;
+    background-color: rgba(144, 238, 144, 0.69);
+    border-radius: 10px;
+}
+section #SaberMais > p{
+    padding: 10px;
+}
+section #SaberMais > h3{
+    padding: 10px;
+    color: white;
+    background-color: var(--cor2);
+    border-radius: 10px 10px 0 0;
+}
+main ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: var(--cor2);
+    color: white;
+    margin: 20px 0 0 0;
+    align-content: center;
+    text-indent: 5px;
+}
+footer > p{
+    margin: 0;
+}
