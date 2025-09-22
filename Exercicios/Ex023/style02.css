@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+    position: relative;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background: #3a3a3a;
+    color: white;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background: lightgray;
+}
+tbody > tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+th{
+    background: lightgray;
+}
+td, th{
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid black;
+}
+td{
+    text-align: left;
+}
+td.num{
+    text-align: right;
+}
+tfoot{
+    background: lightgray;
+}
